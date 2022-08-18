@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a Codo - Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <!-- Primer Formulario -->
+    <h2>Formulario 1</h2>
+    <form action="register-form.html" method="post"> <!-- Enviar información (oculta en el URL) a la página -->
+        <label for="">Nombre:</label>
+        <input type="text" name="name" maxlength="5" pattern="[A-Za-z]{3}"> <!-- Cuadro de texto (máximo cinco caracteres) -->
+        <label for="">Contraseña:</label>
+        <input type="password" name="password"> <!-- Cuadro de texto (caracteres permitidos) -->
+        <label for="">Nacimiento:</label>
+        <input type="date" name="date" min="2002-08-16" max="2022-08-16"> <!-- Ingresar fecha -->
+        <input type="submit" text="Enviar"> <!-- Botón de enviar -->
+    </form>
+
+    <!-- Segundo Formulario -->
+    <h2>Formulario 2</h2>
+    <form action="register-form.html" method="get">
+        <label for="">¿Te gusta bailar?</label>
+        <input type="checkbox">
+        <label for="">¿Te gusta la música?</label>
+        <input type="checkbox">
+    </form>
+
+    <hr>
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>
