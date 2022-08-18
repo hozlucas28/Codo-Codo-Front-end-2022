@@ -7,30 +7,43 @@
     <title>Codo a Codo - Formularios</title>
 </head>
 <body>
-    <h1>Formularios</h1>
+    
+    <!-- ----------------------------- ENCABEZADO ------------------------------ -->
 
-    <!-- Primer Formulario -->
-    <h2>Formulario 1</h2>
-    <form action="register-form.html" method="post"> <!-- Enviar información (oculta en el URL) a la página -->
-        <label for="">Nombre:</label>
-        <input type="text" name="name" maxlength="5" pattern="[A-Za-z]{3}"> <!-- Cuadro de texto (máximo cinco caracteres) -->
-        <label for="">Contraseña:</label>
-        <input type="password" name="password"> <!-- Cuadro de texto (caracteres permitidos) -->
-        <label for="">Nacimiento:</label>
-        <input type="date" name="date" min="2002-08-16" max="2022-08-16"> <!-- Ingresar fecha -->
-        <input type="submit" text="Enviar"> <!-- Botón de enviar -->
-    </form>
+    <header>
+        <h1>Formularios</h1>
+    </header>
 
-    <!-- Segundo Formulario -->
-    <h2>Formulario 2</h2>
-    <form action="register-form.html" method="get">
-        <label for="">¿Te gusta bailar?</label>
-        <input type="checkbox">
-        <label for="">¿Te gusta la música?</label>
-        <input type="checkbox">
-    </form>
 
-    <hr>
-    <a href="index.html">Volver al inicio</a>
+    <!-- ------------------------------ CONTENIDO ------------------------------ -->
+    <main>
+        <div>
+            <!-- Primer Formulario -->
+            <h2>Formulario 1</h2>
+            <form action="register-form.html" method="post"> <!-- 'action' envía los resultados a la página, y 'post' no los muestra en la URL)  -->
+                <label for="name">Nombre:</label> <!-- El 'for' me permite enlazar un 'label' a un 'input'-->
+                <input type="text" id="name" name="name" maxlength="5"> <!-- Cuadro de texto (máximo cinco caracteres) -->
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" pattern="[A-Za-z]"> <!-- Cuadro de texto, con caracteres permitidos -->
+                <label for="date">Nacimiento:</label>
+                <input type="date" id="date" name="date" min="2002-08-16" max="2022-08-16"> <!-- Ingresar fecha, en el intervalo ('max' y 'min') -->
+                <input type="submit" text="Enviar"> <!-- Botón de enviar -->
+            </form>
+        
+            <!-- Segundo Formulario -->
+            <h2>Formulario 2</h2>
+            <form action="register-form.html" method="get">
+                <label for="likeDance">¿Te gusta bailar?</label>
+                <input type="radio" id="likeDance" name="likeDanceOrMusic"> <!-- El 'name' compartido determina una única opción posible -->
+                <label for="likeMusic">¿Te gusta la música?</label>
+                <input type="radio" id="likeMusic" name="likeDanceOrMusic">
+            </form>
+        </div>
+    
+        <hr>
+        <div>
+            <a href="index.html">Volver al inicio</a>
+        </div>
+    </main>
 </body>
 </html>
