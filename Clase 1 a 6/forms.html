@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="Author" lang="es" content="Lucas Hoz" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso de Codo a Codo - Full Stack Java, lado Front-end." />
+    <meta name="keywords" content="Codo a Codo - Full Stack Java, Front-end, HTML, CSS, Formulario" />
+    <title>Codo a Codo - Formularios</title>
+</head>
+<body>
+    <!-- ----------------------------- Encabezado ------------------------------ -->
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+
+    <!-- ------------------------- Contenido Principal ------------------------- -->
+    <main>
+        <div>
+            <!-- Primer Formulario -->
+            <h2>Formulario 1</h2>
+            <form action="register-form.html" method="post"> <!-- 'action' envía los resultados a la página, y 'post' no los muestra en la URL)  -->
+                <label for="name">Nombre:</label> <!-- El 'for' me permite enlazar un 'label' a un 'input'-->
+                <input type="text" id="name" name="name" maxlength="5"> <!-- Cuadro de texto (máximo cinco caracteres) -->
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" pattern="[A-Za-z]"> <!-- Cuadro de texto, con caracteres permitidos -->
+                <label for="date">Nacimiento:</label>
+                <input type="date" id="date" name="date" min="2002-08-16" max="2022-08-16"> <!-- Ingresar fecha, en el intervalo ('max' y 'min') -->
+                <input type="submit" text="Enviar"> <!-- Botón de enviar -->
+            </form>
+        
+            <!-- Segundo Formulario -->
+            <h2>Formulario 2</h2>
+            <form action="register-form.html" method="get">
+                <label for="likeDance">¿Te gusta bailar?</label>
+                <input type="radio" id="likeDance" name="likeDanceOrMusic"> <!-- El 'name' compartido determina una única opción posible -->
+                <label for="likeMusic">¿Te gusta la música?</label>
+                <input type="radio" id="likeMusic" name="likeDanceOrMusic">
+            </form>
+        </div>
+    
+        <hr>
+        <div>
+            <a href="index.html">Volver al inicio</a>
+        </div>
+    </main>
+</body>
+</html>
