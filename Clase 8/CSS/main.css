@@ -1,0 +1,71 @@
+
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffa07a;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  ETIQUETAS                                 */
+/* -------------------------------------------------------------------------- */
+
+header {
+    background-color: #90ee90;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                 ENCABEZADO                                 */
+/* -------------------------------------------------------------------------- */
+
+.mainTittle {
+    padding: 5px;
+    text-align: center;
+}
+
+.menuNav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.menuNav li {
+    float: left;
+}
+
+.menuNav li a {
+    padding: 15px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menuNav li a:hover {
+    border: 2px solid whitesmoke ;
+    opacity: 50%;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                             CONTENIDO PRINCIPAL                            */
+/* -------------------------------------------------------------------------- */
+
+.section {
+    text-align: center;
+}
