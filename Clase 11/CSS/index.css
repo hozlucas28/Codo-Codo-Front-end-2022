@@ -1,0 +1,12 @@
+
+/* --------------------------- Contenido Principal -------------------------- */
+
+.my-Column-Left {
+    height: auto;
+    background-color: #f08080;
+}
+
+.my-Column-Right {
+    height: auto;
+    background-color: #add8e6;
+}
