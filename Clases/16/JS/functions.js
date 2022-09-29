@@ -1,5 +1,5 @@
 
-/* ------------------------------- Constantes ------------------------------- */
+/* -------------------------------- Variables ------------------------------- */
 
 const firstScoreInput = () => document.getElementById('first-score-input'),
       secondScoreInput = () => document.getElementById('second-score-input'),

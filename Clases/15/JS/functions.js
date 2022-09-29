@@ -1,6 +1,4 @@
 
-/* -------------------------------- Funciones ------------------------------- */
-
 function add() {
     let result = document.getElementById('result'),
         resultValue = Number(result.innerHTML);
@@ -11,6 +9,7 @@ function add() {
 };
 
 
+
 function subtract() {
     let result = document.getElementById('result'),
         resultValue = Number(result.innerHTML);
@@ -19,6 +18,7 @@ function subtract() {
     result.innerText = resultValue;
     changeParityValue(resultValue);
 };
+
 
 
 function changeParityValue(number = 0) {
