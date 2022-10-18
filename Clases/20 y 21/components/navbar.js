@@ -44,7 +44,7 @@ function getNavbar(tittle) {
 
 //Buscador - Utilidad.
 function search(key) {
-	const usersFiltered = USERS_DATA.data.filter((i) => i.first_name.includes(key) || i.last_name.includes(key));
+	const usersFiltered = USERS_DATA.data.filter((i) => i.first_name.toLowerCase().includes(key.toLowerCase()) || i.last_name.toLowerCase().includes(key.toLowerCase()));
 
 	const htmlUsers = getUsers(usersFiltered);
 	document.getElementById('users').innerHTML = htmlUsers;
