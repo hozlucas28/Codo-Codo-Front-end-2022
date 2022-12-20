@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="copyright" content="Lucas Hoz"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="Author" lang="es" content="Lucas Hoz"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Curso de Codo a Codo - Full Stack Java, lado Front-end."/>
-    <meta name="keywords" content="Codo a Codo - Full Stack Java, Front-end, HTML, CSS, JavaScript"/>
-    <title>Codo a Codo - JS (4)</title>
-</head>
-<body>    
-    <!-- ------------------------- Contenido Principal ------------------------- -->
-    <main>
-        <section>
-            <h3>Notas</h3>
-            <label for="first-score-input">Nota 1: </label>
-            <input id="first-score-input" type="number" min="0" max="10">
-            <label for="second-score-input">Nota 2: </label>
-            <input id="second-score-input" type="number" min="0" max="10">
-            <button onclick="calculateScores()">Calcular</button>
-            <button onclick="resetResults()">Borrar</button>
-        </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="copyright" content="Lucas Hoz" />
+		<meta name="robots" content="index, follow" />
+		<meta name="Author" lang="es" content="Lucas Hoz" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Curso de Codo a Codo - Full Stack Java, lado Front-end." />
+		<meta name="keywords" content="Codo a Codo - Full Stack Java, Front-end, HTML, CSS, JavaScript" />
+		<title>Codo a Codo - JS (4)</title>
+	</head>
+	<body>
+		<!-- ------------------------- Contenido Principal ------------------------- -->
+		<main>
+			<section>
+				<h3>Notas</h3>
+				<label for="first-score-input">Nota 1: </label>
+				<input id="first-score-input" type="number" min="0" max="10" />
+				<label for="second-score-input">Nota 2: </label>
+				<input id="second-score-input" type="number" min="0" max="10" />
+				<button onclick="calculateScores()">Calcular</button>
+				<button onclick="resetResults()">Borrar</button>
+			</section>
 
-        <section>
-            <h3>Resultados</h3>
-            <ul>
-                <li>Menor: <span id="lower-score-span">XXX</span>.</li>
-                <li>Mayor: <span id="highest-score-span">XXX</span>.</li>
-                <li>Promedio: <span id="average-score-span">XXX</span>.</li>
-            </ul>
-        </section>
-    </main>
-</body>
-    <!-- ----------------------------- JavaScript ------------------------------ -->
-    <script src="JS/functions.js"></script>
+			<section>
+				<h3>Resultados</h3>
+				<ul>
+					<li>Menor: <span id="lower-score-span">XXX</span>.</li>
+					<li>Mayor: <span id="highest-score-span">XXX</span>.</li>
+					<li>Promedio: <span id="average-score-span">XXX</span>.</li>
+				</ul>
+			</section>
+		</main>
+	</body>
+	<!-- ----------------------------- JavaScript ------------------------------ -->
+	<script src="JS/functions.js"></script>
 </html>

@@ -1,31 +1,33 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                  ETIQUETAS                                 */
 /* -------------------------------------------------------------------------- */
 
-h1 { /* Apunta a las etiquetas <h1> */
-    color: #ff0000;
-    font-size: 50px;
+h1 {
+	/* Apunta a las etiquetas <h1> */
+	color: #ff0000;
+	font-size: 50px;
 }
 
-p { /* Apunta a las etiquetas <p> */
-    font-weight: bold;
+p {
+	/* Apunta a las etiquetas <p> */
+	font-weight: bold;
 }
 
-ul { /* Apunta a las etiquetas <ul> */
-    background: #adff2f;
+ul {
+	/* Apunta a las etiquetas <ul> */
+	background: #adff2f;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                             CONTENIDO PRINCIPAL                            */
 /* -------------------------------------------------------------------------- */
 
-#subtitle { /* Apunta a un identificador */
-    color: #20b2aa;
+#subtitle {
+	/* Apunta a un identificador */
+	color: #20b2aa;
 }
 
-.orderedList { /* Apunta a una clase */
-    background: #f4a460;
+.orderedList {
+	/* Apunta a una clase */
+	background: #f4a460;
 }

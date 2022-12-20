@@ -1,14 +1,11 @@
-
 /* -------------------------------------------------------------------------- */
 /*                                   GENERAL                                  */
 /* -------------------------------------------------------------------------- */
 
 * {
-    margin: 0px;
-    padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
-
-
 
 /* -------------------------------------------------------------------------- */
 /*                             CONTENIDO PRINCIPAL                            */
@@ -17,74 +14,70 @@
 /* -------------------------------- Párrafos -------------------------------- */
 
 .paragraphs {
-    margin: 15px;
+	margin: 15px;
 }
-
 
 /* --------------------------------- Imagen --------------------------------- */
 
 .image {
-    margin: 15px;
+	margin: 15px;
 }
 
 .image img {
-    width: 250px;
-    height: 250px;
+	width: 250px;
+	height: 250px;
 }
-
 
 /* ---------------------------------- Hijos --------------------------------- */
 
 .childs {
-    text-align: center;
+	text-align: center;
 }
 
 .childs p:first-child {
-    color: rebeccapurple;
-    font-weight: bold;
+	color: rebeccapurple;
+	font-weight: bold;
 }
 
 .childs p:last-child {
-    color: deepskyblue;
-    font-weight: bold;
+	color: deepskyblue;
+	font-weight: bold;
 }
-
 
 /* ---------------------------------- Tabla --------------------------------- */
 
 .table {
-    margin: 15px;
-    width: 250px;
-    height: 250px;
-    border: 1px solid black;
-    text-align: center;
+	margin: 15px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	text-align: center;
 }
 
 .table tr:first-child {
-    color: white;
-    background-color: black;
+	color: white;
+	background-color: black;
 }
 
-.table tr:nth-child(2n+3) {
-    background-color: #0080009a;
+.table tr:nth-child(2n + 3) {
+	background-color: #0080009a;
 }
 
-.table tr:nth-child(2n+3):hover {
-    opacity: 75%;
+.table tr:nth-child(2n + 3):hover {
+	opacity: 75%;
 }
-
 
 /* ------------------------------ Hipervínculo ------------------------------ */
 
 .links ul li a {
-    margin: 15px;
-    text-decoration: none;
+	margin: 15px;
+	text-decoration: none;
 }
 
 .links ul li a:hover {
-    color: #ff0000;
+	color: #ff0000;
 }
 
 .links ul li a:active {
-    color: #008000;
+	color: #008000;
 }
