@@ -30,7 +30,7 @@
     Installation
 </h2>
 <p>
-    Clone the repository and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor) with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> (extension) installed. After that find the HTML file that you want to see in your live server and press <i>right click</i> on it, then select the option: <i>Open with live server</i>. Automatically, it will open your default browser of the HTML file you selected.
+    Clone the repository and use <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> (code editor) with <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server</a> (extension) installed. After that find the HTML file that you want to see in your live server and press <i>right click</i> on it, then select the option: <i>Open with live server</i>. Automatically, it will open your default browser with the HTML file (rendered) that you selected.
 </p>
 
 <p>
