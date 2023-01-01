@@ -1,5 +1,5 @@
 <h1 align="center">
-    Codo Codo - Front-end [2022]
+    Codo a Codo - Front-end [2022]
 </h1>
 
 <h4 align="center">
